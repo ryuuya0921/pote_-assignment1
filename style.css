@@ -1,3 +1,28 @@
-.h1 {
-    color:rgb(255, 191, 0);
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left {
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.backscreen {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+
+.logo {
+
+    height: 100px;
+}
+
+img{ 
+    width: 20%;
+    height: auto
 }
