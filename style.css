@@ -1,12 +1,101 @@
-.title {
+.headline-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    max-width: 100%;
+    position: relative;
+}
+
+
+
+.headline-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.headline-top{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+}
+
+.headline-nav-item{
+    padding-left: 20px;
+    margin-right: 45px;
+}
+.headline-nav-item-web{
+    color: #333;
+    text-decoration: none;
+}
+
+.headline-nav-item-web>span {
+    display: block;
+    font-weight: 700;
     text-align: center;
+    font-size: 14px;
+}
+
+.headline-nav-item-web>span:last-child {
+    font-size: 10px;
+}
+
+.headline-nav-item-web-button {
+    align-items: center;
+    background-color: #f79214;
+    border-radius: 38px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    height: 60px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+.headline-nav-item-web-button:hover{
+    opacity: 0.8;
+}
+
+.headline-nav-item-web-button a:visited {
+    color: #fff;
+}
+
+/* メニュー一覧。ここまで */
+
+.main {
+    display: block;
+}
+
+.main-img {
+    text-align: left;
+    width: 70%;
+}
+
+.main-text {
+    text-align: center;
+    color:black;
+    font-weight:700;
     margin-bottom: 20px;
+    line-height: 54px;
+    margin-bottom: 15px;
+    font-size: 38px;
+    font-family: "Lato",sans-serif;
 }
 
 .left {
-    width: auto;
-    height: auto;
-    display: block;
+    padding: 20px;
+}
+
+.left:hover {
+    opacity: .8
 }
 
 .backscreen {
@@ -17,12 +106,140 @@
     padding-bottom: 28px;
 }
 
-.logo {
-
-    height: 100px;
+.main-image {
+    display: none;
+    width: 100%;
 }
 
-img{ 
-    width: 20%;
-    height: auto
+.main-unity {
+    margin-bottom: 50px;
+    width: fit-content;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-text {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 75%;
+}
+
+.main-left{
+    text-align: left;
+    width: 56%;
+}
+
+.main-img {
+    display: flex;
+    flex-direction: row-reverse; /* 子要素を上下中央に揃える設定 */
+    justify-content: center; /* 子要素を左右中央に揃える設定 */
+    gap: 20px; /* 子要素間の余白を20pxに設定 */
+    margin-bottom: 20px;
+}
+
+.main-lowercase{
+    color: #808080;
+    font-size: 12px;
+}
+.main-lowercase a{
+    color: #808080;
+    text-decoration: none;
+}
+
+.two-button {
+    display: flex;
+    flex-direction: row-reverse; /* 子要素を上下中央に揃える設定 */
+    justify-content: center; /* 子要素を左右中央に揃える設定 */
+    gap: 20px; /* 子要素間の余白を20pxに設定 */
+}
+
+.two-button a {
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 600;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+.two-buttons {
+    width: 80%;
+}
+
+.main-orangebutton {
+    width: 200%;
+    height: 50%;
+    display: flex;
+    background-color: #f79214;
+    border-radius: 38px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-orangebutton a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-orangebutton:hover{
+    opacity: 0.8;
+}
+
+.main-orangebutton a:visited {
+    color: #fff;
+}
+
+.video-orange{
+    background-color: #f79214;
+    padding: 50px 0;
+}
+
+.video-left{
+    max-width: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-left video{
+    width: 50%;
+}
+
+.video-right{
+    display: block; 
+    align-items: center;
+    width: 100%;
+    margin-left: 50px;
+    color: #fff;
+    text-align: left;
+}
+
+.video-right h2 {
+    font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 54px;
+    width: 100%;
+}
+
+.video-right br {
+    display: none;
+}
+
+.video-button img {
+    width: 158px;
 }
